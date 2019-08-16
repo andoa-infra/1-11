@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<title>1-11</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	<link rel="stylesheet" href="1-11.css">
@@ -10,25 +11,31 @@
 	<header id="header" class="">
 		<section class="header-contents">
 			<img class="header-image" src="img/logo.png" alt="">
+			<div class="menu-box">
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+			</div>
 			<nav class="header-list-box">
 				<ul>
-					<li><a class="s" href="" title="">Portfolio</a></li>
-					<li><a class="s" href="" title="">Feature</a></li>
-					<li><a class="s" href="" title="">Profile</a></li>
-					<li><a class="s" href="" title="">Contact</a></li>
+					<li><a class="s" href="#portfolio" title="">Portfolio</a></li>
+					<li><a class="s" href="#feature" title="">Feature</a></li>
+					<li><a class="s" href="#profile" title="">Profile</a></li>
+					<li><a class="s" href="#contact" title="">Contact</a></li>
 				</ul>
 			</nav>
 		</section>
+
 	</header><!-- /header -->
 
-	<div class="main-visual">
+	<div class="main-visual" id="">
 		<section class="main-visual-text">
 			<h1 class="mvt">Lorem Lpsum</h1>
 			<p class="mvt2">simply dummy text of the printing</p>
 		</section>
 	</div>
 
-	<section class="portfolio">
+	<section id="portfolio" class="portfolio">
 		<h1 class="pf">Portfolio</h1>
 		<div class="space"></div>
 		<p class="pf2">it is a long established fact that a reader will be distracted by the readable <br>
@@ -45,52 +52,85 @@
 		</div>
 	</section>
 
-	<section class="feature">
+	<section id="feature" class="feature clearfix">
 		<section class="feature-box">
 			<h1 class="fb">Feature</h1>
 			<div class="space"></div>
 			<p class="fb2">あああああああああああああああああああああああああ</p>
 		</section>
 
-		<section class="feature-box2">
-			<section class="se section1">
+		<div class="feature-box2">
+			<div class="se section1">
 				<div class="social">
 					<i class="fab fa-apple fa-icon"></i>
 				</div>
 				<h1 class="b-fb">Strength1</h1>
-				<p class="b-fb2">いいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいい</p></section>
-			<section class="se section2">
+				<p class="b-fb2">いいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいい</p>
+			</div>
+			<div class="se section2">
 				<div class="social">
 					<i class="fab fa-android fa-icon"></i>
 				</div>
 				<h1 class="b-fb">Strength2</h1>
-				<p class="b-fb2">うううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううう</p></section>
-			<section class="se section3">
+				<p class="b-fb2">うううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううう</p>
+			</div>
+			<div class="se section3">
 				<div class="social">
 					<i class="fab fa-btc fa-icon"></i>
 				</div>
-				<h1 class="b-fb">Strength3</h1>
-				<p class="b-fb2">えええええええええええええええええええええええええええええええええええええええええええええええええええええええええええええええええええ</p></section>
-		</section>
+				<h1 class="b-fb clearfix">Strength3</h1>
+				<p class="b-fb2">えええええええええええええええええええええええええええええええええええええええええええええええええええええええええええええええええええ</p>
+			</div>
+		</div>
+	</section>
 
-		<section class="Profile">
+	<section id="profile" class="profile">
 			<section class="profile-box1">
-				<h1>Profile</h1>
+				<h1 class="">Profile</h1>
 				<div class="space"></div>
-				<p>It is a long established gact that a reader will be distracted by the readable<br>
+				<p class="pf2">It is a long established gact that a reader will be distracted by the readable<br>
 					content of a page when looking at its layout.<br>
 				The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
 			</section>
 			<section class="profile-box2">
-				<img src="img/my-icon.jpg" alt="">
+				<img class="my-picture" src="img/my-icon.jpg" alt="">
 			</section>
 			<section class="profile-box3">
-				<h1>MyName</h1>
-				<p>ううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううう</p>
-				<h1>MySkills</h1>
-				<p>HTML/CSS/JavaScript/Jquery/PhotoShop</p>
+				<h1 class="my-name">MyName</h1>
+				<p class="align-left">ううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううう</p>
+				<h1 class="my-name">MySkills</h1>
+				<p class="align-left">HTML/CSS/JavaScript/Jquery/PhotoShop</p>
 			</section>
-		</section>
-
 	</section>
+
+	<section id="contact" class="contact clearfix">
+		<div class="contact-box">
+			<h1 class="pf">Contact</h1>
+
+			<div class="space"></div>
+			<p class="pf2">it is a long established fact that a reader will be distracted by the readable <br>
+			content of a page when looking at its layout.<br>
+			The point of using Lorem lpsum is that it has a more-or-less normal distribution of letters</p>
+
+			<div class="adress clearfix">
+				<h1 class="ch">Mail</h1>
+				<p class="p-padding">xxx@xxx.com</p>
+				<h1 class="ch">Tell</h1>
+				<p class="p-padding">000-0000-0000</p>
+			</div>
+
+			<div class="SNS">
+				<h1 class="ch">SNS</h1>
+				<i class="fab fa-btc sns-icon"></i>
+				<i class="fab fa-btc sns-icon si2"></i>
+				<i class="fab fa-btc sns-icon"></i>
+			</div>
+
+		</div>
+	</section>
+
+	<footer>
+		<p class="footer-text">©2017 WebCamp</p>
+	</footer>
+
 </body>
