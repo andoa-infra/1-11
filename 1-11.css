@@ -11,7 +11,7 @@
 }
 
 body{
-	width:1024px;
+	width:100%;
 }
 
 header{
@@ -81,15 +81,18 @@ li{
 }
 
 .pf{
+	width:920px;
 	font-size:32px;
 	color:#000000;
 	padding-bottom:8px;
+	margin: 0 auto;
 }
 
 .pf2{
 	padding-bottom:30px;
 	font-size:16px;
 	text-align: center;
+	width:920px;
 }
 
 .space{
@@ -154,7 +157,7 @@ li{
 
 .feature{
 	width:100%;
-	height:550px;
+	height:auto;
 }
 
 .feature-box{
@@ -219,14 +222,20 @@ li{
 	color:#000000;
 	text-align:center;
 	height:auto;
+	width:100%;
+}
+
+.pf2{
+	margin: 0 auto;
 }
 
 .profile{
-	width:1024px;
+	width:100%;
 	text-align: center;
 	background-color:#ECEFF1;
-	padding-top: 90px;
 	height:auto;
+	font-size:32px;
+	padding:90px 0;
 }
 
 .profile-box1{
@@ -245,6 +254,7 @@ li{
 	border-radius: 250px;
 	width:250px;
 	height:250px;
+	text-align: center;
 }
 
 .profile-box3{
@@ -257,11 +267,17 @@ li{
 .my-name{
 	font-size: 20px;
 	padding-bottom: 5px;
+	text-align:left;
+	width:100%;
+	display: inline-block;
 }
 
 .align-left{
 	text-align: left;
 	padding-bottom:20px;
+	word-wrap:break-word;
+	font-size:16px;
+	display:block;
 }
 
 .contact{
@@ -281,6 +297,7 @@ li{
 	float:left;
 	width:400px;
 	padding-bottom: 90px;
+	text-align: center;
 }
 
 .ch{
@@ -288,13 +305,14 @@ li{
 	padding-bottom: 5px;
 }
 
-.sns{
+.SNS{
 	display: inline-block;
 	width: 400px;
+	text-align: center;
 }
 
 .sns-icon{
-	font-size:50px;	
+	font-size:50px;
 }
 
 .p-padding{
@@ -393,9 +411,16 @@ footer{
 		width:90%;
 	}
 
-	.profile,.social,.se,.se:nth-child(2).b-fb{
+	.profile,.social,.se,.se:nth-child(2),.b-fb{
 		width:100%;
 		margin:0 ;
+	}
+
+	.section2{
+		padding:0 0 90px 0;
+		width:100%;
+		height:auto;
+		margin: 0 auto;
 	}
 
 	.profile{
@@ -420,6 +445,12 @@ footer{
 
 	.feature{
 		height:1156px;
+		padding:0 5%;
+	}
+
+	.social{
+		margin: 0 auto;
+		text-align: center;
 	}
 
 	.feature-box{
@@ -429,7 +460,6 @@ footer{
 	.align-left{
 		text-align: center;
 		padding-bottom:0;
-		word-wrap:break-word;
 	}
 
 	.contact{
