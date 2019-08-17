@@ -248,7 +248,7 @@ li{
 	height: 340px;
 	width:512px;
 	display: inline-block;
-	float:left;
+	text-align: center;
 	padding-bottom: 90px;
 }
 
