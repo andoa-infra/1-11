@@ -305,12 +305,13 @@ li{
 .ch{
 	font-size:20px;
 	padding-bottom: 5px;
+	text-align: left;
 }
 
 .SNS{
 	display: inline-block;
 	width: 400px;
-	text-align: center;
+	text-align: left;
 }
 
 .sns-icon{
@@ -319,6 +320,7 @@ li{
 
 .p-padding{
 	padding-bottom: 20px;
+	text-align: left;
 }
 
 .si2{
