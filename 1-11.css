@@ -44,6 +44,7 @@ li{
 
 .s{
 	color:#FAFAFA;
+	text-decoration:none;
 }
 
 .main-visual{
@@ -107,6 +108,7 @@ li{
 	padding-bottom:90px;
 	width:920px;
 	margin:0 auto;
+	text-align: center;
 }
 
 .pbi{
@@ -348,6 +350,7 @@ footer{
 		height:50px;
 	}
 
+
 	.menu-box{
 		float:right;
 		width:40px;
@@ -394,6 +397,10 @@ footer{
 		font-size:18px;
 	}
 
+	.picture-box{
+		position:relative;
+}
+
 	.pbi:nth-child(odd){
 		display:none;
 	}
@@ -404,6 +411,10 @@ footer{
 		height:250px;
 		width:300px;
 		background-size: cover;
+	}
+
+	.pbi:nth-child(4){
+		margin: 10px auto;
 
 	}
 
